@@ -1,0 +1,108 @@
+.tengahTeks{
+    text-align: center;
+}
+.tengahGambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    image-resolution:snap;
+    text-rendering: optimizeSpeed;
+}
+@font-face {
+    font-family: ubi;
+    src: url("../font/ubiquitous/Ubiquitous Italic.otf")
+}
+.ubiFont {
+    font-family: ubi;
+    font-size: 14px;
+}
+.ukuran4 {
+    font-size: 4vw;
+}
+@font-face {
+    font-family: sq;
+    src: url("../font/game_of_squids/Game Of Squids.otf")
+}
+.sqFont {
+    font-family: sq;
+    font-size: 14px;
+}
+.GambarresponTengah {
+  max-width: 80%;
+  height: auto;
+}
+.kontenertulisandigambar {
+  position: relative;
+}
+.tulisandigambarsebelahkanan {
+  position: absolute;
+  bottom: auto;
+  right: 5px;
+  background-color: transparent;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gambarbayangankotak {
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.98);
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+div.tulisangambarbayangankotak {
+  text-align: center;
+  padding: 5px 5px;
+}
+.audiotengah{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+   margin-top: 20px;
+    padding-top: 20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+    right: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: salmon;
+   color: white;
+   text-align: center;
+}
+.test{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.putih {
+    color: white;
+    text-decoration: none;
+    text-shadow: black;
+}
+.hoverhitam:hover {
+    color: black;
+}
+.hurufbesar {
+    text-transform: uppercase;
+}
+.test1 {
+    text-rendering: optimizeSpeed;
+    text-indent: inherit;
+}
+.kursorhelp {
+    cursor:help;
+}
+.kursorcopy {
+    cursor:copy;
+}
+.kursorgrab {
+    cursor:grab;
+}
+.jarak1px1em {
+    line-height: 1px;
+     letter-spacing : 0.5em;
+}
